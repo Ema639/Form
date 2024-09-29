@@ -21,13 +21,15 @@
             background-color: #fff;
             border-radius: 10px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center; /* Центрируем текст и элементы внутри формы */
         }
         input, textarea, select, button {
-            width: 100%;
+            width: calc(100% - 22px); /* Уменьшаем ширину для учета отступов */
             padding: 10px;
             margin: 10px 0;
             border: 1px solid #ccc;
             border-radius: 5px;
+            box-sizing: border-box; /* Учитываем отступы в общей ширине */
         }
         button {
             background-color: #4CAF50;
